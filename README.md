@@ -1,7 +1,4 @@
 # CSzzang
-
-<br>
-
 ```markdown
 🔥 꼭 CS짱이 돼야지 CS짱이 돼서 맨날 싸움만 하고 애들 다 패버릴거야
 ```
@@ -29,6 +26,4 @@
 
 🐝 [끄적이는 개발노트](https://beenii.tistory.com)
 
-🧞‍♂️ [개발장](https://velog.io/@raejoonee/) *(velog Trending Top10 진입 파워블로거)*
-
-🧞‍♂️ [개발장2](https://raejoonee.tistory.com)
+🧞‍ 개발장 [velog](https://velog.io/@raejoonee/) [Tistory](https://raejoonee.tistory.com)
