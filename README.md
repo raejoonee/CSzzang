@@ -1,11 +1,11 @@
 # CSzzang
 
-<br><br>
+<br>
 
 ```markdown
 🔥 꼭 CS짱이 돼야지 CS짱이 돼서 맨날 싸움만 하고 애들 다 패버릴거야
 ```
-<br><br>
+<br>
 
 ## Member
 
@@ -15,13 +15,13 @@
 
 🧞‍♂️ [조래준](https://github.com/raejoonee)
 
-<br><br>
+<br>
 
 ## Description
 
 매주(아마도요..) 각자 하나의 주제를 선정해 학습한 내용을 업로드합니다. 
 
-<br><br>
+<br>
 
 ### 블로그 오실 분?
 
