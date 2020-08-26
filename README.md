@@ -22,8 +22,8 @@
 
 ## Contents
 ### OS
-| 😎 | <center>제목</center> | 날짜 | <center>비고</center> | 링크 |
-| :-: | :------ | :-: | :-- | :--: |
+| 😎 | 제목 | 날짜 | 비고 | 링크 |
+| :-: | :------: | :-: | :--: | :--: |
 | 🧞‍♂️ | [프로세스와 스레드의 차이](https://github.com/raejoonee/CSzzang/blob/master/OS/ProcessVsThread.md) | 2020.08.02 |  | [#](https://velog.io/@raejoonee/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80-%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98-%EC%B0%A8%EC%9D%B4) |
 | 🧸 | [메모리 구조](https://github.com/raejoonee/CSzzang/blob/master/OS/MemoryStructure.md) | 2020.08.03 |  | [#](https://velog.io/@goserimgoserimgo/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0) |
 <!-- 양식 남겨둡니다^^ 복붙해서 쓰세요
