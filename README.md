@@ -20,6 +20,12 @@
 
 <br>
 
+## Contents
+### OS
+* [🧸 메모리 구조](https://github.com/raejoonee/CSzzang/blob/master/OS/MemoryStructure.md)
+
+<br>
+
 ### 블로그 오실 분?
 
 🧸 [쨀로그](https://velog.io/@goserimgoserimgo) 
