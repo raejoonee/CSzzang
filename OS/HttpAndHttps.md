@@ -1,10 +1,9 @@
 # HTTP와 HTTPS 차이점
 
 | HTTP | HTTPS |
-| :---: |
-| HyperText Transfer Protocol의 약자 (+Secure Socket Layer(SSL)) |
-| 인터넷에서 사용하는 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송하기 위한 통신 규약 |
 | :---: | :---: |
+| HyperText Transfer Protocol | HyperText Transfer Protocol over Secure Socket Layer(SSL) |
+| 인터넷에서 사용하는 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송하기 위한 통신 규약 | |
 | 포트번호 : 80 | 포트번호 : 443 |
 | **암호화가 전혀 되어 있지 않아**, 그냥 텍스트 그대로 전송 | 소켓 통신에서 일반 텍스트를 이용하는 대신에, **TLS 프로토콜**을 통해 세션 데이터를 **암호화** |
 | wireshark와 같은 패킷캡쳐 프로그램으로 패킷캡쳐를 해보면 정보가 그대로 노출되어 있는 것을 볼 수 있습니다. | 패킷을 암호화하여 전송하기 때문에 패킷캡쳐를 해보아도 암호화된 내용만 보이게 됩니다. |
@@ -16,9 +15,10 @@
 * ~~SSL~~은 공개키 암호화 방식과 공개키의 단점을 보완한 대칭키 암호화 방식을 함께 사용한다. (공개키 방식은 느리다는 단점이 있다.)
 
 > 공개키방식으로 대칭키를 전달하고, 서로 공유된 대칭키를 가지고 통신하게 된다.
-  
----
-
+<br />
+<br />
+<br />
+<br />
 ## SSL과 TLS 차이점
 
 대부분 HTTP와 HTTPS를 검색하면, HTTPS는 HTTP에서 SSL/TLS 인증서 개념이 더해진 HTTP보다 보안이 더 강한 프로토콜이라고 나옵니다.  
@@ -26,9 +26,9 @@
 
   * **SSL (Secure Sockets Layer)** : Netscape 사에서 개발
   * **TLS (Transport Layer Security)** : IETF 사에서 개발
-  
-  
-  
+<br />
+<br />
+<br />
 SSL과 TLS 모두 사용자와 웹 브라우저 간 통신을 암호화하는데 사용하는 프로토콜입니다.  
 TLS는 SSL과 비슷하다고 보면 되는데 TLS는 SSL3.0을 기반으로 개선된 신규 모델 프로토콜로, SSL은 더이상 사용되지 않고 TLS가 사용됩니다.  
 하지만 SSL이라는 단어가 익숙해서 SSL와 TLS라는 단어가 혼용되서 사용될 때가 많은데, 그냥 HTTPS에는 TLS가 사용된다고 보면 됩니다.  
@@ -36,14 +36,14 @@ TLS는 공개키와 개인키를 교환하여 보안 세션을 생성한 후 통
 SSL와 TLS는 TCP/IP 네트워크를 사용하는 통신에 적용되며, 통신 과정에서 전송계층 종단 간 보안과 데이터 <u>무결성</u>을 확보할 수 있게 합니다.
 
 <u>무결성</u> : 정보가 변형되지 않고 그대로 전달되는 성질
-
+<br />
 ---
-
+<br />
 ## SSL/TLS 통신 과정(동작 방식)
 <img src="./TLS.png" width=500 />
-  
-  
-  
+<br />
+---
+<br />
 ### 🤝 handshake 🤝
 
 * handshake는 실제로 암호화 자체를 수행하는 것이 아니라, 공유되는 비밀 및 사용될 암호화 유형을 결정하는 절차를 진행합니다.
@@ -53,9 +53,8 @@ SSL와 TLS는 TCP/IP 네트워크를 사용하는 통신에 적용되며, 통신
   + 양쪽이 알고 있는 pre-master secret key 생성 및 교환
   + 양쪽의 신원 인증
   + 채널을 암호화 하기 위한 임시 세션키 생성
-  
-  
-  
+<br />
+<br />
 **1. Client Hello 👋**
   * 이 메시지에는 client에서 가능한 TLS 버전, 서버 도메인, 세션 식별자, 암호 설정 등의 정보가 포함된다.
   * client가 생성한 랜덤 데이터 A도 전송된다.
@@ -89,14 +88,14 @@ SSL와 TLS는 TCP/IP 네트워크를 사용하는 통신에 적용되며, 통신
   
 **8. Finished 🗣 🙌**
   * 그리고 나서 Finished 메시지를 보내 각자의 Handshake 과정이 끝났음을 알립니다.
-  
-  
-  
+<br />
+<br />
+<br />
 ### session
 이후 세션키를 활용한 대칭키 암호화 방식으로 **Server와 Client**가 데이터를 주고 받습니다.
-  
-  
-  
+<br />
+<br />
+<br />
 ### end session
 데이터의 전송이 끝나면 SSL통신이 끝났음을 서로에게 알려줍니다.   
 이때, 세션키🔑를 폐기합니다.
@@ -108,9 +107,9 @@ SSL와 TLS는 TCP/IP 네트워크를 사용하는 통신에 적용되며, 통신
 >   
 > 따라서 노출되면 큰일나는 대칭키를 만들어 주고받는 과정은 공개키 암호방식을 이용하고,  
 > 주고받은 대칭키로 통신이 이루어집니다.  
-
+<br />
 ---
-
+<br />
 ## (추가) 비대칭키 / 대칭키 암호화 방식
 
 먼저, 공개키/개인키 암호화 방식(비대칭키 방식)을 간단하게 살펴보겠습니다.
@@ -130,10 +129,10 @@ SSL/TLS 동작 방식에서도 Server가 Client에게 인증서와 함께 건내
 그렇게 해서 pre-master secret key는 Server와 Client만 알 수 있도록 비대칭키 암호화 방식으로 주고받게 되는 것입니다.
 
 이렇게 주고 받은 pre-master secret key를 통해 Server와 Client가 각각 같은 Session Key를 생성할 수 있게 되고, 이 세션키를 이용한 암호화 방식(대칭키 암호화 방식)을 통해 통신을 이루게 됩니다.
-
-
-
-
+<br />
+<br />
+<br />
+<br />
 > **Reference**  
 > * dany-it.tistory.com/96?category=286604  
 > * blog.naver.com/PostView.nhn?blogId=sung_mk1919&logNo=221598350824&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView  
