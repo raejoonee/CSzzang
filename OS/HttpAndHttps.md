@@ -54,9 +54,6 @@ SSL와 TLS는 TCP/IP 네트워크를 사용하는 통신에 적용되며, 통신
 <img src="./image/TLS.png" width=1000 />
 
 <br />
-
----
-
 <br />
 
 ### 🤝 handshake 🤝
