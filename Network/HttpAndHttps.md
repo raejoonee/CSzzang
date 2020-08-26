@@ -181,7 +181,7 @@ SSL/TLS 동작 방식에서도 Server가 Client에게 인증서와 함께 건내
 <br />
 
 > **Reference**  
-> * dany-it.tistory.com/96?category=286604  
-> * blog.naver.com/PostView.nhn?blogId=sung_mk1919&logNo=221598350824&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView  
-> * wayhome25.github.io/cs/2018/03/11/ssl-https/  
-> * naleejang.tistory.com/216  
+> * [Http와 Https의 차이점](dany-it.tistory.com/96?category=286604)
+> * [SSL과 TLS에 대한 정리](blog.naver.com/PostView.nhn?blogId=sung_mk1919&logNo=221598350824&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView)
+> * [Https와 SSL인증서, SSL동작방법](wayhome25.github.io/cs/2018/03/11/ssl-https/)  
+> * [Http 보안 및 용어 정리](naleejang.tistory.com/216)
