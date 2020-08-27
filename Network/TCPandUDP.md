@@ -132,7 +132,7 @@ A(클라이언트)는 B(서버)에게 `ACK`을 보내고 이후로부터는 연�
 
 * 과정
 
-<img src="./image/4WayHandshake.png width=800 />
+<img src="./image/4WayHandshake.png" width=800 />
 
 <br />
 
