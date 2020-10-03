@@ -39,6 +39,7 @@
 | 🐝 | [Http와 Https](./Network/HttpAndHttps.md) | 2020.07.27 | | [#](https://beenii.tistory.com/83?category=833817) |
 | 🧞‍♂️ | [OSI 참조 모델](https://github.com/raejoonee/CSzzang/blob/master/Network/OSI%20Model.md) | 2020.08.24 |  | [#](https://velog.io/@raejoonee/OSI-%EC%B0%B8%EC%A1%B0-%EB%AA%A8%EB%8D%B8-%EC%99%84%EC%A0%84%ED%9E%88-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0) |
 | 🐝 | [TCP와 UDP](./Network/TCPandUDP.md) | 2020.08.27 | | [#](https://beenii.tistory.com/98) |
+| 🧸 | [DNS](./Network/DNS.md) | 2020.10.03 | | [#](https://velog.io/@goserimgoserimgo/DNS) |
 
 <br>
 
