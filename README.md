@@ -47,10 +47,18 @@
 
 <br>
 
-### 블로그 오실 분?
+## 블로그 오실 분?
 
 🧸 [쨀로그](https://velog.io/@goserimgoserimgo) 
 
 🐝 [끄적이는 개발노트](https://beenii.tistory.com)
 
 🧞‍♂️ 개발장 [velog](https://velog.io/@raejoonee/) [Tistory](https://raejoonee.tistory.com)
+
+<br>
+<br>
+
+## Achievement
+:trophy: 2020년 8월 velog Trending 6위 달성 🎉
+
+![image](/images/velogTrendingAugust.png)
