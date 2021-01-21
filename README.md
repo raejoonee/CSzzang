@@ -29,6 +29,7 @@
 | 🧞‍♂️ | [운영체제의 CPU 스케줄링](https://github.com/raejoonee/CSzzang/blob/master/OS/Scheduling.md) | 2020.08.09 |  | [#](https://velog.io/@raejoonee/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98-CPU-%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81) |
 | 🧸 | [Deadlock(교착상태)](https://github.com/raejoonee/CSzzang/blob/master/OS/DeadLock.md) | 2020.08.26 | | [#](https://velog.io/@goserimgoserimgo/Deadlock) |
 | 🐝 | [커널(Kernel)](./OS/Kernel.md) | 2020.09.03 | | [#](https://beenii.tistory.com/100) |
+| 🐝 | 캐시, 버퍼, 레지스터 | 2020.10.03 | 블로그로 보세요👉 | [#](https://beenii.tistory.com/101?category=833817) |
 <!-- 양식 남겨둡니다^^ 복붙해서 쓰세요
 | 🧸 | [제목](GitHub 링크) | 2020.08.26 | | [#](벨로그/티톨 링크) |
 -->
@@ -38,8 +39,10 @@
 | :-: | :------: | :-: | :--: | :--: |
 | 🐝 | [Http와 Https](./Network/HttpAndHttps.md) | 2020.07.27 | | [#](https://beenii.tistory.com/83?category=833817) |
 | 🧞‍♂️ | [OSI 참조 모델](https://github.com/raejoonee/CSzzang/blob/master/Network/OSI%20Model.md) | 2020.08.24 |  | [#](https://velog.io/@raejoonee/OSI-%EC%B0%B8%EC%A1%B0-%EB%AA%A8%EB%8D%B8-%EC%99%84%EC%A0%84%ED%9E%88-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0) |
-| 🐝 | [TCP와 UDP](./Network/TCPandUDP.md) | 2020.08.27 | | [#](https://beenii.tistory.com/98) |
+| 🐝 | [TCP와 UDP](./Network/TCPandUDP.md) | 2020.08.27 | | # |
 | 🧸 | [DNS](./Network/DNS.md) | 2020.10.03 | | [#](https://velog.io/@goserimgoserimgo/DNS) |
+| 🐝 | [Web 동작방식](./Network/WebProcess.md) | 2020.01.04 | | [#](https://beenii.tistory.com/123?category=833817) |
+| 🐝 | [TCP - 3-way / 4-way Handshake](./Network/TCPhandshake.md) | 2021.01.08 | [#](https://beenii.tistory.com/127?category=833817) |
 | 🐝 | OSI 7계층 동작 원리 | (작성중) | 개발장님이 **OSI 참조 모델**을 작성하긴 했지만 저도 공부하는 겸 작성하겠습니다ㅎㅎ.. | (작성중) |
 
 <br>
