@@ -42,7 +42,7 @@
 | 🐝 | [TCP와 UDP](./Network/TCPandUDP.md) | 2020.08.27 | | # |
 | 🧸 | [DNS](./Network/DNS.md) | 2020.10.03 | | [#](https://velog.io/@goserimgoserimgo/DNS) |
 | 🐝 | [Web 동작방식](./Network/WebProcess.md) | 2020.01.04 | | [#](https://beenii.tistory.com/123?category=833817) |
-| 🐝 | [TCP - 3-way / 4-way Handshake](./Network/TCPhandshake.md) | 2021.01.08 | [#](https://beenii.tistory.com/127?category=833817) |
+| 🐝 | [TCP - 3-way / 4-way Handshake](./Network/TCPhandshake.md) | 2021.01.08 | | [#](https://beenii.tistory.com/127?category=833817) |
 | 🐝 | OSI 7계층 동작 원리 | (작성중) | 개발장님이 **OSI 참조 모델**을 작성하긴 했지만 저도 공부하는 겸 작성하겠습니다ㅎㅎ.. | (작성중) |
 
 <br>
