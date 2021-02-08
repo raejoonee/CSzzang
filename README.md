@@ -30,6 +30,7 @@
 | 🧸 | [Deadlock(교착상태)](https://github.com/raejoonee/CSzzang/blob/master/OS/DeadLock.md) | 2020.08.26 | | [#](https://velog.io/@goserimgoserimgo/Deadlock) |
 | 🐝 | [커널(Kernel)](./OS/Kernel.md) | 2020.09.03 | | [#](https://beenii.tistory.com/100) |
 | 🐝 | 캐시, 버퍼, 레지스터 | 2020.10.03 | 블로그로 보세요 👉 | [#](https://beenii.tistory.com/101?category=833817) |
+| 🐝 | 가상메모리(Virtual Memory) | 작성중 | | # |
 <!-- 양식 남겨둡니다^^ 복붙해서 쓰세요
 | 🧸 | [제목](GitHub 링크) | 2020.08.26 | | [#](벨로그/티톨 링크) |
 -->
